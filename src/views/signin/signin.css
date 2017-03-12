@@ -1,41 +1,41 @@
-.about-view {
+.signin {
     overflow: scroll;
-    bottom: 0px;
+    bottom: 120px;
     text-align: center;
+    padding-top: 240px;
 }
 
-.about-view h4 {
-    font-size: 30px;
+.signin h1 {
+    font-size: 120px;
     font-weight: 100;
     line-height: 130px;
-    margin-top: 10px;
+    padding-bottom: 40px;
 }
 
-.about-view h5 {
-    font-size: 40px;
-    font-weight: 100;
-    line-height: 30px;
-    margin-top: 50px;
-}
-
-.about-view .div1 {
+.signin div {
     font-size: 25px;
     font-weight: 50;
-    margin-top: 360px;;
+    margin-top: 300px;
 }
 
-.about-view img {
+.signin img {
     width:296px;
     height:84px;
 }
 
-.about-view .img2 {
+.signin .img1 {
+    width:292px;
+    height:198px;
+    margin-left: 80px;
+}
+
+.signin .img2 {
     margin-top: 0px;
     width:148px;
     height: 132px;
 
 }
-.about-view .img3 {
+.signin .img3 {
     width:109px;
     height:109px;
     margin-left: 0px;

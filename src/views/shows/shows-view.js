@@ -8,7 +8,7 @@ class ShowsView extends erste.View {
         this.className = 'shows-view';
 
         this.navBar = new erste.NavBar({
-            title: __('Top Shows'),
+            title: __('<img src="static/foto/logo3.png"/>'),
             hasMenuButton: true,
             hasBackButton: true
         });

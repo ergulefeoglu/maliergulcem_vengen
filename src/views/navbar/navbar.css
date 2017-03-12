@@ -6,7 +6,7 @@ logo {
 }
 
 nav-bar {
-    height: 90px;
+    height: 140px;
     width: 100%;
     left: 0;
     top: 0;
@@ -17,13 +17,13 @@ nav-bar {
 
 .iOS nav-bar {
     padding-top: 40px;
-    height: 130px;
+    height: 140px;
 }
 
 menu-button {
     right: 0px;
-    height: 90px;
-    font-size: 50px;
+    height: 140px;
+    font-size: 80px;
     display: block;
     position: absolute;
     text-shadow: 0 0 5px rgba(0, 0, 0, .14);
@@ -31,9 +31,9 @@ menu-button {
 }
 
 back-button {
-    height: 90px;
+    height: 140px;
     width: 110px;
-    font-size: 36px;
+    font-size: 80px;
     padding: 0px 36px;
     text-align: left;
     display: block;

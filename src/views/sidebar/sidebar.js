@@ -1,16 +1,13 @@
 var __ = erste.locale.__;
 
 class Sidebar extends erste.Sidebar {
+    
     template_items() {
         return `
-<sidebar-item class="sidebar-item-shows" data-view="shows"><i class="icon-signup"></i>${__('Shows')}
-    <sidebar-label>
-        ${__('Great posters for the best shows')}
-    </sidebar-label>
-</sidebar-item>
-<sidebar-item class="sidebar-item-about" data-view="about">
-    <i class="icon-about"></i>${__('About')}
-</sidebar-item>
+<sidebar-item data-view="signup"><i class="icon-signup"></i>Sign up</sidebar-item>
+<sidebar-item data-view="signin"><i class="icon-signin"></i>Sign in</sidebar-item>
+<sidebar-item data-view="about"><i class="icon-about"></i>About</sidebar-item>
+<sidebar-item data-view="exit"><i class="icon-exit"></i>Exit</sidebar-item>
 `;
     };
 }

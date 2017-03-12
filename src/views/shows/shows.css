@@ -1,11 +1,11 @@
 .shows-view {
-    bottom: 120px;
+    bottom: 0px;
 }
 
 nav-bar {
     display: block;
-    height: 90px;
-    line-height: 90px;
+    height: 140px;
+    line-height: 140px;
     text-align: center;
     background: rgba(0, 0, 0, 0.8);
     -webkit-backdrop-filter: blur(20px) saturate(1.2) brightness(1.2) contrast(1.2);
@@ -19,16 +19,16 @@ nav-bar {
 
 list-items-container {
     display: block;
-    top: 0px;
+    top: 170px;
     -webkit-overflow-scrolling: touch;
     height: 100%;
-    width: 100%;
+    width: 50%;
     overflow: scroll;
     padding-top: 90px;
 }
 
 .iOS list-items-container {
-    padding-top: 130px;
+    padding-top: 0px;
 }
 
 list-items {

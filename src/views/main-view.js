@@ -3,6 +3,9 @@ var __ = erste.locale.__;
 var ShowsView = require('./shows/shows-view');
 var AboutView = require('./about/about-view');
 var Sidebar = require('./sidebar/sidebar');
+var SignIn = require('./sidebar/signin/signin');
+var SignUp = require('./sidebar/signup/signup');
+//var SearchByGenre = require('./searchbygenre/searchbygenre');
 
 class MainView extends erste.TabBar {
     constructor(vm) {
@@ -10,8 +13,12 @@ class MainView extends erste.TabBar {
 
         this.showsView = new ShowsView();
         this.aboutView = new AboutView();
-
-        this.views = [this.aboutView, this.showsView];
+        this.signIn = new SignIn();
+        this.signUp = new SignUp();
+        //this.searchByGenre = new SearchByGenre();
+        
+        this.views = [this.showsView, this.signIn, this.signUp, this.signIn, this.aboutView];
+        
 
         this.showsView.navBar.menuButtonHandler = () => vm.toggleSidebar();
 
@@ -20,20 +27,45 @@ class MainView extends erste.TabBar {
         this.sidebar = new Sidebar();
         this.sidebar.vm = vm;
 
-        this.sidebar.on('switchView', e => this.activateItemByName(e.view));
+        //this.sidebar.on('switchView', e => this.activateItemByName(e.view));
+        this.sidebar.on('switchView', e => {
+            var view;
 
+            switch(e.view) {
+                case 'Sign up':
+                view = this.signUp;
+                break;
+                case 'Sign in':
+                view = this.signIn;
+                break;
+                case 'About':
+                view = this.aboutView;
+                break;
+                default:
+                view = this.showsView;
+            }
+            vm.setCurrentView(view);
+
+        }
+        );
         this.sidebar.render(document.body);
+        
     }
 
     onAfterRender() {
         super.onAfterRender();
 
-        this.activateItemByName('shows');
+        
+
+        //this.activateItemByName('shows');
     };
 
     template_items() {
         return `
-<tab-item class="active" data-view="about">${__('About')}</tab-item><tab-item data-view="shows">${__('Shows')}</tab-item>
+<tab-item class="active" data-view="shows">Upcoming Events</tab-item><tab-item data-view="signin">Search by Genre</tab-item>
+<tab-item data-view="signup">Sign up</tab-item><tab-item data-view="signin">Sign in</tab-item>
+<tab-item data-view="about">About</tab-item>
+
 `;
     };
 

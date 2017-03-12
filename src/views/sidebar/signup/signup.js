@@ -1,13 +1,12 @@
 var __ = erste.locale.__;
 
-class AboutView extends erste.View {
+class SignUp extends erste.View {
     constructor() {
         super();
 
-        this.className = 'about-view';
+        this.className = 'signup';
 
     }
-    
     template_content() {
         return `        
 <hr>
@@ -19,8 +18,8 @@ class AboutView extends erste.View {
 
 <img class="img1" src="static/foto/logo2.png"/>
 <br><hr>
-<div class="div1">
-<p>${__('All rights reserved')}</p>
+<div>
+<p>${__('All rights reservedsdsadas')}</p>
 <br>
 <p>${__('© 2017 VenGen Media')}</p>
 </div>
@@ -29,4 +28,4 @@ class AboutView extends erste.View {
     }
 }
 
-module.exports = AboutView;
+module.exports = SignUp;
