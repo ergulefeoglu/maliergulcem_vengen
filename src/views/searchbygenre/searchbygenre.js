@@ -1,25 +1,21 @@
 var __ = erste.locale.__;
 
-class AboutView extends erste.View {
+class SearchByGenre extends erste.View {
     constructor() {
         super();
 
-        this.className = 'about-view';
+        this.className = 'searchbygenre';
 
     }
-    
     template_content() {
         return `        
 <hr>
-<h4>${__('About Us')}</h4>
-<hr><br>
-<img src="static/foto/logo1.png"/>
+<h4>${__('About Ussdads')}</h4>
 
 <h5>${__('Version 1.0.0')}</h5>
 
-<img class="img1" src="static/foto/logo2.png"/>
 <br><hr>
-<div class="div1">
+<div>
 <p>${__('All rights reserved')}</p>
 <br>
 <p>${__('© 2017 VenGen Media')}</p>
@@ -29,4 +25,4 @@ class AboutView extends erste.View {
     }
 }
 
-module.exports = AboutView;
+module.exports = SignUpView;
