@@ -1,0 +1,78 @@
+.signup h4 {
+    font-size: 60px;
+    text-align: center;
+    margin-top:270px;  
+}
+.signup h3 {
+margin-left: 30px;
+height: 80px;
+}
+
+.signup .last {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.signup .button1 {
+background-color: blue;
+color: white;
+width: 250px;
+height: 65px;
+margin-left: 30px;
+}
+
+.signup .button2 {
+width: 250px;
+height: 65px;
+margin-left:140px; 
+background-color:lightblue;
+color: white;
+font-size:50px;
+}
+
+.signup .first {
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.signup .img1 {
+width : 80px;
+height : 80px;
+margin-left: 30px;
+}
+
+.signup .img2 {
+width : 80px;
+height : 80px;
+margin-left: 30px;
+}
+
+.signup .box1 {
+height : 80px;
+margin-left: 60px;
+border-style: solid;
+
+}
+
+.signup .box2 {
+height : 80px;
+margin-left:60px;
+border-style: solid;
+}
+
+.signup .box3 {
+height : 80px;
+margin-left:240px;
+border-style: solid;
+}
+
+.signup .button3 {
+width: 750px;
+height: 85px;
+margin-left:0px; 
+background-color: blue;
+color: white;
+font-size:50px;
+}

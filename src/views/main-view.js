@@ -3,8 +3,8 @@ var __ = erste.locale.__;
 var ShowsView = require('./shows/shows-view');
 var AboutView = require('./about/about-view');
 var Sidebar = require('./sidebar/sidebar');
-var SignIn = require('./sidebar/signin/signin');
-var SignUp = require('./sidebar/signup/signup');
+var SignIn = require('./sidebar/signin');
+var SignUp = require('./sidebar/signup');
 //var SearchByGenre = require('./searchbygenre/searchbygenre');
 
 class MainView extends erste.TabBar {
@@ -17,7 +17,7 @@ class MainView extends erste.TabBar {
         this.signUp = new SignUp();
         //this.searchByGenre = new SearchByGenre();
         
-        this.views = [this.showsView, this.signIn, this.signUp, this.signIn, this.aboutView];
+        this.views = [this.signUp, this.signUp, this.signUp, this.signIn, this.aboutView];
         
 
         this.showsView.navBar.menuButtonHandler = () => vm.toggleSidebar();
@@ -63,8 +63,7 @@ class MainView extends erste.TabBar {
     template_items() {
         return `
 <tab-item class="active" data-view="shows">Upcoming Events</tab-item><tab-item data-view="signin">Search by Genre</tab-item>
-<tab-item data-view="signup">Sign up</tab-item><tab-item data-view="signin">Sign in</tab-item>
-<tab-item data-view="about">About</tab-item>
+
 
 `;
     };
