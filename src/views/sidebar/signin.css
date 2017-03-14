@@ -1,0 +1,74 @@
+.signin h4 {
+    font-size: 60px;
+    text-align: center;
+    margin-top:270px;  
+}
+
+.signin .div1 {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: -30px;
+}
+
+.signin .last {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.signin .button1 {
+background-color: blue;
+color: white;
+width: 250px;
+height: 65px;
+margin-left: 30px;
+}
+
+.signin .button2 {
+width: 250px;
+height: 65px;
+margin-left:140px; 
+background-color:lightblue;
+color: white;
+font-size:50px;
+}
+
+.signin .first {
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.signin .img1 {
+width : 80px;
+height : 80px;
+margin-left: 30px;
+}
+
+.signin .img2 {
+width : 80px;
+height : 80px;
+margin-left: 30px;
+}
+
+.signin .box1 {
+height : 80px;
+margin-left: 60px;
+border-style: solid;
+
+}
+
+.signin .box2 {
+height : 80px;
+margin-left:60px;
+border-style: solid;
+}
+
+.signin .button3 {
+width: 750px;
+height: 85px;
+margin-left:0px; 
+background-color: blue;
+color: white;
+font-size:50px;
+}
