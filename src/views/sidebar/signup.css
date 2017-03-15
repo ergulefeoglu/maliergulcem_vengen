@@ -3,6 +3,38 @@
     text-align: center;
     margin-top:270px;  
 }
+
+.signup .button1 {
+height: 10px;
+width: 30px;
+margin-left: 10px;
+margin-top: -60px;
+border: none;
+color: white;
+background-color: white;
+}
+
+.signup .button2 {
+width: 30px;
+height: 10px;
+margin-left:380px; 
+background-color: white;
+color: white;
+}
+
+.signup .img3 {
+width : 348px;
+height : 75px;
+margin-left: 0px;
+}
+
+.signup .img4 {
+width : 348px;
+height : 75px;
+margin-left: -40px;
+margin-top: -10px;
+}
+
 .signup h3 {
 margin-left: 30px;
 height: 80px;
@@ -11,24 +43,7 @@ height: 80px;
 .signup .last {
     font-size: 30px;
     margin-top: 30px;
-    margin-left: 250px;
-}
-
-.signup .button1 {
-background-color: blue;
-color: white;
-width: 250px;
-height: 65px;
-margin-left: 30px;
-}
-
-.signup .button2 {
-width: 250px;
-height: 65px;
-margin-left:140px; 
-background-color:lightblue;
-color: white;
-font-size:50px;
+    margin-left: 300px;
 }
 
 .signup .first {
@@ -64,7 +79,7 @@ border-style: solid;
 
 .signup .box3 {
 height : 80px;
-margin-left:240px;
+margin-left:17px;
 border-style: solid;
 }
 

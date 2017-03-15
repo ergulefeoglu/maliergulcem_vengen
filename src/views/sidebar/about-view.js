@@ -5,11 +5,15 @@ class AboutView extends erste.View {
         super();
 
         this.className = 'about-view';
-
+this.navBar = new erste.NavBar({
+            title: __('<img src="static/foto/logo3.png"/>'),
+            hasMenuButton: true,
+            hasBackButton: true
+        });
     }
     
     template_content() {
-        return `        
+        return `${ParameterDecorator.navBar}        
 <hr>
 <h4>${__('About Us')}</h4>
 <hr><br>
