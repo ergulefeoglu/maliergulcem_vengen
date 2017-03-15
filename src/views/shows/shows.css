@@ -22,7 +22,7 @@ list-items-container {
     top: 170px;
     -webkit-overflow-scrolling: touch;
     height: 100%;
-    width: 50%;
+    width: 100%;
     overflow: scroll;
     padding-top: 90px;
 }
@@ -33,6 +33,7 @@ list-items-container {
 
 list-items {
     display: block;
+    
 }
 
 list-item {
@@ -45,7 +46,8 @@ list-item {
 show-title {
     color: #ffffff;
     text-align: center;
-    font-size: 60px;
+    height: 130px;
+    font-size: 30px;
     display: block;
     background: rgba(0, 0, 0, 0.2);
     position: absolute;
