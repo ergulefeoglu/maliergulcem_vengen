@@ -6,16 +6,28 @@ class SignIn extends erste.View {
 
         this.className = 'signin';
 
+        this.navBar = new erste.NavBar({
+            title: __('<img src="static/foto/logo3.png"/>'),
+            hasMenuButton: true,
+            hasBackButton: true
+        });
+
     }
+
+    onAfterRender() {
+        this.vm = new erste.ViewManager(this.el);
+        this.navBar.vm = this.vm;
+    };
+
     template_content() {
-        return `        
-<h4><hr>${__('Login')}<hr></h4>
+        return `${this.navBar}        
+<h4>${__('Login')}<hr></h4>
 <br>
 <div class="div1">
 <p>You can login using your Facebook profile or Twitter account</p><br>
 <p>Connect your account using one of the buttons below</p>
 </div><br>
-<button type="button" class="button1">Facebook</button><button type="button" class="button2">twitter</button>
+<button type="button" class="button1"><img class="img3" src="static/foto/facebook.png"/></button><button type="button" class="button2"><img class="img4" src="static/foto/twitter.png"/></button>
 <br><br><hr>
 <p class="first">or sign up with e-mail</p><br>
 <img class="img1" src="static/foto/Mail.png"/>  <input type="text" class="box1" placeholder="Email" required><br>

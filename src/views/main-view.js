@@ -5,7 +5,7 @@ var AboutView = require('./about/about-view');
 var Sidebar = require('./sidebar/sidebar');
 var SignIn = require('./sidebar/signin');
 var SignUp = require('./sidebar/signup');
-//var SearchByGenre = require('./searchbygenre/searchbygenre');
+var Search = require('./search/search');
 
 class MainView extends erste.TabBar {
     constructor(vm) {
@@ -15,9 +15,9 @@ class MainView extends erste.TabBar {
         this.aboutView = new AboutView();
         this.signIn = new SignIn();
         this.signUp = new SignUp();
-        //this.searchByGenre = new SearchByGenre();
+        this.search = new Search();
         
-        this.views = [this.signUp, this.signUp, this.signUp, this.signIn, this.aboutView];
+        this.views = [this.showsView, this.search, this.search, this.search, this.signIn, this.aboutView];
         
 
         this.showsView.navBar.menuButtonHandler = () => vm.toggleSidebar();
@@ -62,7 +62,7 @@ class MainView extends erste.TabBar {
 
     template_items() {
         return `
-<tab-item class="active" data-view="shows">Upcoming Events</tab-item><tab-item data-view="signin">Search by Genre</tab-item>
+<tab-item class="active" data-view="showsView">Upcoming Events</tab-item><tab-item data-view="Search">Search by Genre</tab-item>
 
 
 `;
