@@ -21,14 +21,19 @@ class DetailView extends erste.View {
         var show = this.show;
 
         return `
-<detail-background
-    style="background-image: url(static/img/poster/${imgFile})">
     <div class="info">
-        <p>Title: ${show.title}</p>
-        <p>Year: ${show.year}</p>
-        <p># of seasons: ${show.num_seasons}</p>
+        <p>${show.title}</p>
+        <hr>
+        <img class="image1" src="static/img/poster/${imgFile}"/>
+        <hr>
+        <p>${show.date}</p>
+        <p>${show.day}</p>
+        <p>${show.place}</p>
+        <hr>
+        <p class="description">${show.description}</p>
+        <hr>
     </div>
-</detail-background>
+    <button class="button1" type="button">Get Ticket</button>
 `;
     }
 

@@ -33,7 +33,7 @@ list-items-container {
 
 list-items {
     display: block;
-    
+    padding: 40px;
 }
 
 list-item {
@@ -46,7 +46,8 @@ list-item {
 show-title {
     color: #ffffff;
     text-align: center;
-    height: 130px;
+    height: 140px;
+    line-height: 1.5;
     font-size: 30px;
     display: block;
     background: rgba(0, 0, 0, 0.2);
@@ -54,7 +55,7 @@ show-title {
     bottom: 0px;
     width: 100%;
     font-weight: 200;
-    padding: 20px;
+    padding: 0px;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.321);
     -webkit-backdrop-filter: blur(20px) saturate(1.2) brightness(1.2) contrast(1.2);
@@ -69,20 +70,49 @@ show-title {
 }
 
 detail-background {
+    margin-top: 300px;
     display: block;
-    height: 100%;
+    height: 360px;
     width: 100%;
     background-size: cover;
 }
 
 .detail-view .info {
-    background: rgba(0, 0, 0, 0.8);
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    bottom: 0;
-    position: absolute;
+    background: white;
+    color: black;
     width: 100%;
-    font-size: 60px;
-    padding: 40px;
+    margin-top:280px;
+    font-size: 40px;
+    padding: 0px;
+    text-align: center;
     line-height: 1.7;
-    -webkit-backdrop-filter: blur(20px) saturate(1.2) brightness(1.2) contrast(1.2);
+    font-style: normal;
+}
+
+.detail-view .image1 {
+    margin-top: 20px;
+    width: 500px;
+    height: 240px;
+    margin-left: 0px;
+}
+
+.detail-view .button1 {
+    height: 60px;
+    width: 350px;
+    background-color:lightblue;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom:100px;
+    border-color: black;
+    border-width: 5px;
+    //font-family: "Times New Roman", Georgia, Serif;
+    margin-left: 200px;
+    font-weight: 600;
+}
+
+.detail-view .description {
+    font-size: 30px;
+    margin-top:20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
