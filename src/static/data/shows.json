@@ -12,6 +12,10 @@
     "slug": "shakira",
     "title": "Shakira",
     "tvdb_id": "121361",
+    "date": "09.04.2017 21:00",
+    "day":"Sunday",
+    "place":"Kucukciftlik Park",
+    "description":"Muhteşem performanslarıyla herkesi kendine hayran bırakan Shakira Küçükçiftlik Parkta karşınızda",
     "year": "2011"
   },
   {
@@ -27,6 +31,10 @@
     "slug": "ariana-grande",
     "title": "Ariana Grande",
     "tvdb_id": "81189",
+    "date": "15.04.2017 21:00",
+    "day":"Saturday",
+    "place":"Babylon",
+    "description":"Şirin tatlı kızımız Ariana Grande Babylon'da sizleri bekliyor",
     "year": "2008"
   },
   {
@@ -42,6 +50,10 @@
     "slug": "katy-perry",
     "title": "Katy Perry",
     "tvdb_id": "80379",
+    "date": "16.04.2017 21:00",
+    "day":"Sunday",
+    "place":"Trendy Lounge & Bar",
+    "description":"Ünlü İngiliz sanatçı güzel şarkılarıyla karşınızda Trendy Lounge & Bar'da",
     "year": "2007"
   },
   {
@@ -57,6 +69,10 @@
     "slug": "madonna",
     "title": "Madonna",
     "tvdb_id": "153021",
+    "date": "22.04.2017 21:00",
+    "day":"Saturday",
+    "place":"IF Performance Hall",
+    "description":"Yine bir efsane karşınıza IF Performance Hall'da, işte o Madonna",
     "year": "2010"
   },
   {
@@ -72,6 +88,10 @@
     "slug": "britney-spears",
     "title": "Britney Spears",
     "tvdb_id": "79349",
+    "date": "23.04.2017 21:00",
+    "day":"Sunday",
+    "place":"Eataly-Bar Terrazzo",
+    "description":"Şarkılarıyla skandallarının önüne geçen güzelimiz Britney Spears Eataly-Bar Terrazzo'da",
     "year": "2006"
   },
   {
@@ -87,6 +107,10 @@
     "slug": "rihanna",
     "title": "Rihanna",
     "tvdb_id": "75760",
+    "date": "29.04.2017 21:00",
+    "day":"Saturday",
+    "place":"Living Room",
+    "description":"İstanbulu çok sevdiğini açıklayan Rihanna Living Room'u yıkmaya hazırlanıyor",
     "year": "2005"
   },
   {
@@ -102,6 +126,10 @@
     "slug": "miley-cyrus",
     "title": "Miley Cyrus",
     "tvdb_id": "176941",
+    "date": "30.04.2017 21:00",
+    "day":"Sunday",
+    "place":"Akasya Kultur Sanat",
+    "description":"Değişik yaşam tarzıyla dikkatleri üzerine çeken Miley Cyrus Akasya Kültür Sanat'ta",
     "year": "2010"
   },
   {
@@ -117,6 +145,10 @@
     "slug": "beyonce",
     "title": "Beyonce",
     "tvdb_id": "82066",
+    "date": "06.05.2017 21:00",
+    "day":"Saturday",
+    "place":"Jolly Joker",
+    "description":"İstanbulu büyelemeye hazırlanan Beyonce Jolly Joker'de karşınızda",
     "year": "2008"
   },
   {
@@ -132,6 +164,10 @@
     "slug": "jennifer-lopez",
     "title": "Jennifer Lopez",
     "tvdb_id": "257655",
+    "date": "07.05.2017 21:00",
+    "day":"Sunday",
+    "place":"Kucukciftlik Park",
+    "description":"Muhteşem sesi, güzelliği ve danslarıyla yılların bir numarası karşınızda Küçükçiftlik Park'ta",
     "year": "2012"
   },
   {
@@ -147,6 +183,10 @@
     "slug": "mariah-carey",
     "title": "Mariah Carey",
     "tvdb_id": "247897",
+    "date": "13.05.2017 21:00",
+    "day":"Saturday",
+    "place":"Babylon",
+    "description":"Erkeklerin rüyalarını süsleyen eşsiz güzel Mariah Carey Babylon'da",
     "year": "2011"
   },
   {
@@ -162,6 +202,10 @@
     "slug": "demi-lovato",
     "title": "Demi Lovato",
     "tvdb_id": "73739",
+    "date": "14.05.2017 21:00",
+    "day":"Sunday",
+    "place":"Trendy Lounge & Bar",
+    "description":"Güzelliği ve sesiyle bilinen Demi Lovato karşınızda Trendy Lounge & Bar'da",
     "year": "2004"
   },
   {
@@ -177,6 +221,10 @@
     "slug": "taylor-swift",
     "title": "Taylor Swift",
     "tvdb_id": "73255",
+    "date": "20.05.2017 21:00",
+    "day":"Saturday",
+    "place":"IF Performance Hall",
+    "description":"Küçük güzel kızımız Taylor Swift IF Performance Hall'da hayranlarıyla buluşacak",
     "year": "2004"
   },
   {
@@ -192,6 +240,10 @@
     "slug": "eminem",
     "title": "Eminem",
     "tvdb_id": "95011",
+    "date": "21.05.2017 21:00",
+    "day":"Sunday",
+    "place":"Eataly-Bar Terrazzo",
+    "description":"Rap'in kralı Eminem sonunda İstanbul'da. Eataly-Bar Terrazzo Rap'e doyacak",
     "year": "2009"
   },
   {
@@ -207,6 +259,10 @@
     "slug": "adele",
     "title": "Adele",
     "tvdb_id": "78901",
+    "date": "18.03.2017 21:00",
+    "day":"Saturday",
+    "place":"Babylon",
+    "description":"Harika şarkıları ve büyüleyici sesiyle Adele İstanbul'da Babylon'da",
     "year": "2005"
   },
   {
@@ -222,6 +278,10 @@
     "slug": "justin-bieber",
     "title": "Justin Bieber",
     "tvdb_id": "247808",
+    "date": "19.03.2017 21:00",
+    "day":"Sunday",
+    "place":"Trendy Lounge & Bar",
+    "description":"Genç kızların rüyası Justin Bieber Trendy Lounge & Bar'da",
     "year": "2011"
   },
   {
@@ -237,6 +297,10 @@
     "slug": "nicki-minaj",
     "title": "Nicki Minaj",
     "tvdb_id": "82283",
+    "date": "25.03.2017 21:00",
+    "day":"Saturday",
+    "place":"IF Performance Hall",
+    "description":"Nicki Minaj. Nicki Minaj. Nicki Minaj. Mükemmellik karşınızda. IF performance Hall yıkılacak",
     "year": "2008"
   },
   {
@@ -252,6 +316,10 @@
     "slug": "lady-gaga",
     "title": "Lady Gaga",
     "tvdb_id": "78804",
+    "date": "26.03.2017 21:00",
+    "day":"Sunday",
+    "place":"Eataly-Bar Terrazzo",
+    "description":"İlginç giyim tarzı, dansları ve şarkılarıyla Lady Gaga Eataly-Bar Terrazzo'da",
     "year": "2005"
   },
   {
@@ -267,6 +335,10 @@
     "slug": "kanye-west",
     "title": "Kanye West",
     "tvdb_id": "94571",
+    "date": "01.04.2017 21:00",
+    "day":"Saturday",
+    "place":"Living Room",
+    "description":"Rap denince akla gelen ilk isimlerden biri olan Kanye West Living Room'da",
     "year": "2009"
   },
   {
@@ -282,6 +354,10 @@
     "slug": "chris-brown",
     "title": "Chris Brown",
     "tvdb_id": "71663",
+    "date": "02.04.2017 21:00",
+    "day":"Sunday",
+    "place":"Akasya Kultur Sanat",
+    "description":"Harika danslarıyla şarkılarını bütünleştiren Chris Brown Akasya Kültür Sanatı yerle bir edecek",
     "year": "1989"
   },
   {
@@ -297,456 +373,10 @@
     "slug": "selena-gomez",
     "title": "Selena Gomez",
     "tvdb_id": "262980",
+    "date": "08.04.2017 21:00",
+    "day":"Saturday",
+    "place":"Jolly Joker",
+    "description":"Muhteşem sesi ve güzelliğiyle dillere destan Selena Gomez Jolly Joker'de",
     "year": "2013"
-  },
-  {
-    "_id": "tt1844624",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/11360.27.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/11360.27.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/11360.27.jpg"
-    },
-    "imdb_id": "tt1844624",
-    "last_updated": 1417658416150,
-    "num_seasons": 4,
-    "slug": "american-horror-story",
-    "title": "American Horror Story",
-    "tvdb_id": "250487",
-    "year": "2011"
-  },
-  {
-    "_id": "tt1826940",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/9635.17.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/9635.17.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/9635.17.jpg"
-    },
-    "imdb_id": "tt1826940",
-    "last_updated": 1417663069197,
-    "num_seasons": 4,
-    "slug": "new-girl",
-    "title": "New Girl",
-    "tvdb_id": "248682",
-    "year": "2011"
-  },
-  {
-    "_id": "tt0182576",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/70.29.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/70.29.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/70.29.jpg"
-    },
-    "imdb_id": "tt0182576",
-    "last_updated": 1417659729039,
-    "num_seasons": 9,
-    "slug": "family-guy",
-    "title": "Family Guy",
-    "tvdb_id": "75978",
-    "year": "1999"
-  },
-  {
-    "_id": "tt1843230",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/10646.22.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/10646.22.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/10646.22.jpg"
-    },
-    "imdb_id": "tt1843230",
-    "last_updated": 1417581169347,
-    "num_seasons": 4,
-    "slug": "once-upon-a-time",
-    "title": "Once Upon a Time (2011)",
-    "tvdb_id": "248835",
-    "year": "2011"
-  },
-  {
-    "_id": "tt1839578",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/11367.17.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/11367.17.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/11367.17.jpg"
-    },
-    "imdb_id": "tt1839578",
-    "last_updated": 1417581687308,
-    "num_seasons": 4,
-    "slug": "person-of-interest",
-    "title": "Person of Interest",
-    "tvdb_id": "248742",
-    "year": "2011"
-  },
-  {
-    "_id": "tt0149460",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/8.13.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/8.13.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/8.13.jpg"
-    },
-    "imdb_id": "tt0149460",
-    "last_updated": 1417660020517,
-    "num_seasons": 2,
-    "slug": "futurama",
-    "title": "Futurama",
-    "tvdb_id": "73871",
-    "year": "1999"
-  },
-  {
-    "_id": "tt0407362",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/66.4.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/66.4.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/66.4.jpg"
-    },
-    "imdb_id": "tt0407362",
-    "last_updated": 1417658641434,
-    "num_seasons": 2,
-    "slug": "battlestar-galactica-2003",
-    "title": "Battlestar Galactica (2003)",
-    "tvdb_id": "73545",
-    "year": "2003"
-  },
-  {
-    "_id": "tt0934814",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/72.7.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/72.7.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/72.7.jpg"
-    },
-    "imdb_id": "tt0934814",
-    "last_updated": 1417658669169,
-    "num_seasons": 5,
-    "slug": "chuck",
-    "title": "Chuck",
-    "tvdb_id": "80348",
-    "year": "2007"
-  },
-  {
-    "_id": "tt0121955",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/18.10.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/18.10.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/18.10.jpg"
-    },
-    "imdb_id": "tt0121955",
-    "last_updated": 1417584499786,
-    "num_seasons": 9,
-    "slug": "south-park",
-    "title": "South Park",
-    "tvdb_id": "75897",
-    "year": "1997"
-  },
-  {
-    "_id": "tt2364582",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/19185.13.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/19185.13.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/19185.13.jpg"
-    },
-    "imdb_id": "tt2364582",
-    "last_updated": 1417661939128,
-    "num_seasons": 2,
-    "slug": "marvels-agents-of-shield",
-    "title": "Marvel's Agents of S.H.I.E.L.D.",
-    "tvdb_id": "263365",
-    "year": "2013"
-  },
-  {
-    "_id": "tt0904208",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/125.10.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/125.10.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/125.10.jpg"
-    },
-    "imdb_id": "tt0904208",
-    "last_updated": 1417658664136,
-    "num_seasons": 7,
-    "slug": "californication",
-    "title": "Californication",
-    "tvdb_id": "80349",
-    "year": "2007"
-  },
-  {
-    "_id": "tt1405406",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/260.13.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/260.13.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/260.13.jpg"
-    },
-    "imdb_id": "tt1405406",
-    "last_updated": 1417584680301,
-    "num_seasons": 6,
-    "slug": "the-vampire-diaries",
-    "title": "The Vampire Diaries",
-    "tvdb_id": "95491",
-    "year": "2009"
-  },
-  {
-    "_id": "tt0455275",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/415.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/415.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/415.jpg"
-    },
-    "imdb_id": "tt0455275",
-    "last_updated": 1417582033185,
-    "num_seasons": 4,
-    "slug": "prison-break",
-    "title": "Prison Break",
-    "tvdb_id": "75340",
-    "year": "2005"
-  },
-  {
-    "_id": "tt2372162",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/20160.14.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/20160.14.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/20160.14.jpg"
-    },
-    "imdb_id": "tt2372162",
-    "last_updated": 1417581245217,
-    "num_seasons": 2,
-    "slug": "orange-is-the-new-black",
-    "title": "Orange Is the New Black",
-    "tvdb_id": "264586",
-    "year": "2013"
-  },
-  {
-    "_id": "tt1219024",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/73.40.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/73.40.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/73.40.jpg"
-    },
-    "imdb_id": "tt1219024",
-    "last_updated": 1417658665789,
-    "num_seasons": 7,
-    "slug": "castle-2009",
-    "title": "Castle (2009)",
-    "tvdb_id": "83462",
-    "year": "2009"
-  },
-  {
-    "_id": "tt1553656",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/19909.10.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/19909.10.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/19909.10.jpg"
-    },
-    "imdb_id": "tt1553656",
-    "last_updated": 1417584596100,
-    "num_seasons": 2,
-    "slug": "under-the-dome",
-    "title": "Under the Dome",
-    "tvdb_id": "264492",
-    "year": "2013"
-  },
-  {
-    "_id": "tt1124373",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/76.21.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/76.21.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/76.21.jpg"
-    },
-    "imdb_id": "tt1124373",
-    "last_updated": 1417584496572,
-    "num_seasons": 7,
-    "slug": "sons-of-anarchy",
-    "title": "Sons of Anarchy",
-    "tvdb_id": "82696",
-    "year": "2008"
-  },
-  {
-    "_id": "tt2356777",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/27434.19.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/27434.19.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/27434.19.jpg"
-    },
-    "imdb_id": "tt2356777",
-    "last_updated": 1417584539311,
-    "num_seasons": 1,
-    "slug": "true-detective",
-    "title": "True Detective",
-    "tvdb_id": "270633",
-    "year": "2014"
-  },
-  {
-    "_id": "tt1196946",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/5799.7.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/5799.7.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/5799.7.jpg"
-    },
-    "imdb_id": "tt1196946",
-    "last_updated": 1417662067647,
-    "num_seasons": 7,
-    "slug": "the-mentalist",
-    "title": "The Mentalist",
-    "tvdb_id": "82459",
-    "year": "2008"
-  },
-  {
-    "_id": "tt0813715",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/225.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/225.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/225.jpg"
-    },
-    "imdb_id": "tt0813715",
-    "last_updated": 1417660648293,
-    "num_seasons": 4,
-    "slug": "heroes",
-    "title": "Heroes",
-    "tvdb_id": "79501",
-    "year": "2006"
-  },
-  {
-    "_id": "tt2243973",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/16689.55.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/16689.55.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/16689.55.jpg"
-    },
-    "imdb_id": "tt2243973",
-    "last_updated": 1417660480262,
-    "num_seasons": 2,
-    "slug": "hannibal",
-    "title": "Hannibal",
-    "tvdb_id": "259063",
-    "year": "2013"
-  },
-  {
-    "_id": "tt2191671",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/16469.25.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/16469.25.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/16469.25.jpg"
-    },
-    "imdb_id": "tt2191671",
-    "last_updated": 1417659537161,
-    "num_seasons": 3,
-    "slug": "elementary",
-    "title": "Elementary",
-    "tvdb_id": "255316",
-    "year": "2012"
-  },
-  {
-    "_id": "tt0369179",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/78.7.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/78.7.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/78.7.jpg"
-    },
-    "imdb_id": "tt0369179",
-    "last_updated": 1417584558345,
-    "num_seasons": 10,
-    "slug": "two-and-a-half-men",
-    "title": "Two and a Half Men",
-    "tvdb_id": "72227",
-    "year": "2003"
-  },
-  {
-    "_id": "tt0285331",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/199.17.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/199.17.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/199.17.jpg"
-    },
-    "imdb_id": "tt0285331",
-    "last_updated": 1417658405770,
-    "num_seasons": 5,
-    "slug": "24",
-    "title": "24",
-    "tvdb_id": "76290",
-    "year": "2001"
-  },
-  {
-    "_id": "tt0367279",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/101.19.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/101.19.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/101.19.jpg"
-    },
-    "imdb_id": "tt0367279",
-    "last_updated": 1417658636720,
-    "num_seasons": 1,
-    "slug": "arrested-development",
-    "title": "Arrested Development",
-    "tvdb_id": "72173",
-    "year": "2003"
-  },
-  {
-    "_id": "tt1442449",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/6029.7.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/6029.7.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/6029.7.jpg"
-    },
-    "imdb_id": "tt1442449",
-    "last_updated": 1417584501598,
-    "num_seasons": 3,
-    "slug": "spartacus",
-    "title": "Spartacus",
-    "tvdb_id": "129261",
-    "year": "2010"
-  },
-  {
-    "_id": "tt1462059",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/6164.6.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/6164.6.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/6164.6.jpg"
-    },
-    "imdb_id": "tt1462059",
-    "last_updated": 1417659707229,
-    "num_seasons": 4,
-    "slug": "falling-skies",
-    "title": "Falling Skies",
-    "tvdb_id": "205281",
-    "year": "2011"
-  },
-  {
-    "_id": "tt0413573",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/93.14.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/93.14.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/93.14.jpg"
-    },
-    "imdb_id": "tt0413573",
-    "last_updated": 1417660361008,
-    "num_seasons": 10,
-    "slug": "greys-anatomy",
-    "title": "Grey's Anatomy",
-    "tvdb_id": "73762",
-    "year": "2005"
-  },
-  {
-    "_id": "tt2070791",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/16164.14.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/16164.14.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/16164.14.jpg"
-    },
-    "imdb_id": "tt2070791",
-    "last_updated": 1417583102112,
-    "num_seasons": 2,
-    "slug": "revolution-2012",
-    "title": "Revolution",
-    "tvdb_id": "258823",
-    "year": "2012"
-  },
-  {
-    "_id": "tt1358522",
-    "images": {
-      "poster": "http://slurm.trakt.us/images/posters/25.17.jpg",
-      "fanart": "http://slurm.trakt.us/images/fanart/25.17.jpg",
-      "banner": "http://slurm.trakt.us/images/banners/25.17.jpg"
-    },
-    "imdb_id": "tt1358522",
-    "last_updated": 1417584775331,
-    "num_seasons": 6,
-    "slug": "white-collar",
-    "title": "White Collar",
-    "tvdb_id": "108611",
-    "year": "2009"
   }
 ]
