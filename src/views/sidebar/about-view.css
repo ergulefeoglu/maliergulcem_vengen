@@ -1,14 +1,7 @@
-.about-view {
-    overflow: scroll;
-    bottom: 0px;
-    text-align: center;
-}
-
 .about-view h4 {
-    font-size: 30px;
-    font-weight: 100;
-    line-height: 130px;
-    margin-top: 10px;
+    font-size: 60px;
+    text-align: center;
+    margin-top:180px;  
 }
 
 .about-view h5 {
@@ -16,30 +9,25 @@
     font-weight: 100;
     line-height: 30px;
     margin-top: 50px;
+    text-align: center;
 }
 
 .about-view .div1 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 50;
-    margin-top: 360px;;
-}
-
-.about-view img {
-    width:296px;
-    height:84px;
+    margin-top: 340px;
+    text-align: center;
 }
 
 .about-view .img2 {
     margin-top: 0px;
-    width:148px;
-    height: 132px;
+    margin-left: 227px;
+    width:296px;
+    height: 84px;
 
 }
 .about-view .img3 {
-    width:109px;
-    height:109px;
-    margin-left: 0px;
-    margin-top:0px;
-    padding-left: 0px;
-    text-align: left;
+    width: 292px;
+    height: 178px;
+    margin-left: 270px;
 }

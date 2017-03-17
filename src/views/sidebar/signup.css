@@ -1,7 +1,7 @@
 .signup h4 {
     font-size: 60px;
     text-align: center;
-    margin-top:270px;  
+    margin-top:180px;  
 }
 
 .signup .button1 {
@@ -42,13 +42,13 @@ height: 80px;
 
 .signup .last {
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: -10px;
     margin-left: 300px;
 }
 
 .signup .first {
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 60px;
     text-align: center;
 }
 
