@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>getEventDataFromFB.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" media="all" href="docco.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    
+    <ul class="sections">
+        
+          <li id="title">
+              <div class="annotation">
+                  <h1>getEventDataFromFB.js</h1>
+              </div>
+          </li>
+        
+        
+        
+        <li id="section-1">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-1">&#182;</a>
+              </div>
+              <p>Dependencies</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">var</span> FB = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fb'</span>),
+    fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>),
+    beautify = <span class="hljs-built_in">require</span>(<span class="hljs-string">"json-beautify"</span>),
+    url = <span class="hljs-built_in">require</span>(<span class="hljs-string">'url'</span>),
+    https = <span class="hljs-built_in">require</span>(<span class="hljs-string">'https'</span>),
+    qs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'querystring'</span>);</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-2">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-2">&#182;</a>
+              </div>
+              <p>Create a new app via <a href="https://developers.facebook.com/apps/">https://developers.facebook.com/apps/</a> 
+Then use your app id and app secret to populate the consts below</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">const</span> clientId = <span class="hljs-string">""</span>,
+    clientSecret = <span class="hljs-string">""</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-3">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-3">&#182;</a>
+              </div>
+              <p>Latitude and Longitude to be passed to getEventDataFromFB.js as cli args, 
+else use default values</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">var</span> lat = process.argv[<span class="hljs-number">2</span>] || <span class="hljs-string">"41.0370"</span>,
+    long = process.argv[<span class="hljs-number">3</span>] || <span class="hljs-string">"28.9851"</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-4">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-4">&#182;</a>
+              </div>
+              <p>Assign query value for FB api search from cli argv[4] or use default value</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">const</span> qv = process.argv[<span class="hljs-number">4</span>] || <span class="hljs-string">"konser"</span>;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-5">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-5">&#182;</a>
+              </div>
+              <p><code>fetchAccessToken</code> fetches access token to be used for api querying</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">fetchAccessToken</span>(<span class="hljs-params">cbFunc</span>) </span>{
+    https.get(<span class="hljs-string">"https://graph.facebook.com/oauth/access_token?client_id="</span> + clientId + <span class="hljs-string">"&amp;client_secret="</span> + clientSecret + <span class="hljs-string">"&amp;grant_type=client_credentials"</span>, (res) =&gt; {
+        <span class="hljs-keyword">const</span> statusCode = res.statusCode;
+        <span class="hljs-keyword">const</span> contentType = res.headers[<span class="hljs-string">'content-type'</span>];
+
+        <span class="hljs-keyword">var</span> error;
+        <span class="hljs-keyword">if</span> (statusCode !== <span class="hljs-number">200</span>) {
+            error = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">"Request Failed.\n"</span> + <span class="hljs-string">"Status Code:  "</span> + statusCode);
+        }
+        <span class="hljs-keyword">if</span> (error) {
+            <span class="hljs-built_in">console</span>.log(error.message);
+            res.resume();
+            <span class="hljs-keyword">return</span>;
+        }
+
+        res.setEncoding(<span class="hljs-string">'utf8'</span>);
+        <span class="hljs-keyword">let</span> rawData = <span class="hljs-string">''</span>;
+        res.on(<span class="hljs-string">'data'</span>, (chunk) =&gt; rawData += chunk);
+        res.on(<span class="hljs-string">'end'</span>, () =&gt; {
+            <span class="hljs-keyword">try</span> {
+                <span class="hljs-built_in">console</span>.log(rawData);</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-6">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-6">&#182;</a>
+              </div>
+              <p><code>cbFunc</code> called here</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>                cbFunc(rawData);
+            } <span class="hljs-keyword">catch</span> (e) {
+                <span class="hljs-built_in">console</span>.log(e.message);
+                <span class="hljs-keyword">return</span> e.message;
+            }
+        });
+    }).on(<span class="hljs-string">"error"</span>, (e) =&gt; {
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Got error: "</span> + e.message);
+    });
+}</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-7">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-7">&#182;</a>
+              </div>
+              <p>Declare <code>theAccessToken</code></p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-keyword">var</span> theAccessToken;</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-8">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-8">&#182;</a>
+              </div>
+              <p>Invoke <code>fetchAccessToken with anonymous callback that populates</code>theAccessToken` variable</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>fetchAccessToken(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">accTok</span>) </span>{
+    theAccessToken = accTok;
+    doFBapiCall(qv);
+});</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-9">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-9">&#182;</a>
+              </div>
+              <p><code>doApiCall</code> makes call to FB api with defined values</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">doFBapiCall</span>(<span class="hljs-params">queryValue</span>) </span>{
+    <span class="hljs-keyword">if</span> (theAccessToken.indexOf(<span class="hljs-string">"access_token"</span>) != <span class="hljs-number">-1</span>) {
+
+        FB.setAccessToken(theAccessToken.match(<span class="hljs-regexp">/\d+\|[a-zA-Z0-9]+/igm</span>)[<span class="hljs-number">0</span>]);
+
+        FB.api(<span class="hljs-string">"search?q="</span> + queryValue + <span class="hljs-string">"&amp;type=place&amp;center="</span> + lat + <span class="hljs-string">","</span> + long + <span class="hljs-string">"&amp;distance=1000&amp;fields=events{name,place,category_id,start_time,ticket_uri,photos{source},owner{category}}"</span>, <span class="hljs-string">"get"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">res</span>) </span>{
+            <span class="hljs-keyword">if</span> (!res || res.error) {
+                <span class="hljs-built_in">console</span>.log(!res ? <span class="hljs-string">"error occurred"</span> : res.error);
+                <span class="hljs-keyword">return</span>;
+            }
+            <span class="hljs-built_in">console</span>.log(res.data);
+            <span class="hljs-keyword">var</span> jsonString = <span class="hljs-string">""</span>;
+            <span class="hljs-keyword">var</span> eventList = [];
+
+            res.data.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">item, index</span>) </span>{
+                <span class="hljs-keyword">try</span> {
+                    <span class="hljs-keyword">var</span> eventsAtPlace = item.events.data;
+                    eventsAtPlace.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>) </span>{
+                        eventList.push(event);
+                    });
+                } <span class="hljs-keyword">catch</span> (e) {
+                    <span class="hljs-built_in">console</span>.log(e.message);
+                }
+            });</pre></div></div>
+            
+        </li>
+        
+        
+        <li id="section-10">
+            <div class="annotation">
+              
+              <div class="pilwrap ">
+                <a class="pilcrow" href="#section-10">&#182;</a>
+              </div>
+              <p>Determine output path and file name</p>
+
+            </div>
+            
+            <div class="content"><div class='highlight'><pre>            fs.writeFile(<span class="hljs-string">"../static/data/concertsFromFB.json"</span>, beautify(eventList, <span class="hljs-literal">null</span>, <span class="hljs-number">2</span>, <span class="hljs-number">100</span>), (err) =&gt; {
+                <span class="hljs-keyword">if</span> (err) <span class="hljs-keyword">throw</span> err;
+                <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'It\'s saved!'</span>);
+            });
+        });
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">"Could not retrieve access_token, aborted api call"</span>);
+    }
+}</pre></div></div>
+            
+        </li>
+        
+    </ul>
+  </div>
+</body>
+</html>
