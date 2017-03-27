@@ -14,6 +14,7 @@ class MainView extends erste.TabBar {
         this.views = [this.showsView, this.search];
 
         this.showsView.navBar.menuButtonHandler = () => vm.toggleSidebar();
+        this.search.navBar.menuButtonHandler = () => vm.toggleSidebar();
         this.vm = vm;
         this.hasSidebar = true;
 
