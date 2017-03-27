@@ -14,6 +14,11 @@ class Search extends erste.View {
 
     }
 
+    onActivation() {
+        if (cfg.PLATFORM == 'device')
+            StatusBar.styleLightContent();
+    }
+
     onAfterRender() {
         this.vm = new erste.ViewManager(this.el);
         this.navBar.vm = this.vm;

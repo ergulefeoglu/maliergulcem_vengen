@@ -3,7 +3,7 @@ var MainView = require('./views/main-view');
 var locale = require('./lib/locale');
 var SignIn = require('./views/sidebar/signin');
 var SignUp = require('./views/sidebar/signup');
-var AboutView = require('./views/sidebar/about-view');
+var AboutView = require('./views/sidebar/aboutview');
 
 
 class Application {
@@ -32,7 +32,7 @@ class Application {
                     view = aboutView;
                     break;
                 default:
-                    view = aboutView;
+                    view = mainView;
             }
 
             this.vm.setCurrentView(view, true);

@@ -1,0 +1,33 @@
+.aboutview h4 {
+    font-size: 60px;
+    text-align: center;
+    margin-top:180px;  
+}
+
+.aboutview h5 {
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.aboutview .div1 {
+    font-size: 35px;
+    font-weight: 50;
+    margin-top: 340px;
+    text-align: center;
+}
+
+.aboutview .img2 {
+    margin-top: 0px;
+    margin-left: 227px;
+    width:296px;
+    height: 84px;
+
+}
+.aboutview .img3 {
+    width: 292px;
+    height: 178px;
+    margin-left: 270px;
+}
