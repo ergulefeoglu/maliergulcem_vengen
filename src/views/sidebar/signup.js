@@ -18,7 +18,7 @@ class SignUp extends erste.View {
         return `${this.navBar}       
 <h4>${__('Sign up')}<hr></h4>
 <br>
-<button type="button" class="button1"><img class="img3" src="static/foto/facebook.png"/></button><button type="button" class="button2"><img class="img4" src="static/foto/twitter.png"/></button>
+<button type="button" class="button1"><img class="img3" onclick="location.href='http://www.facebook.com/';" src="static/foto/facebook.png"/></button><button type="button" class="button2"><img class="img4" onclick="location.href='https://twitter.com/?lang=en/';" src="static/foto/twitter.png"/></button>
 <br><br><hr>
 <p class="first">or sign up with e-mail</p><br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full Name <input type="text" class="box3" placeholder="Full Name" required>
@@ -34,4 +34,4 @@ class SignUp extends erste.View {
     }
 }
 
-module.exports = SignUp;
+module.exports = SignUp; 

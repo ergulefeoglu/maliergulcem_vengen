@@ -1,13 +1,10 @@
 var __ = erste.locale.__;
-//var SignUp = require('../sidebar/signup');
-//var AboutView = require('../sidebar/about-view');
-var PlaceView = require('../place/place-view');
 
 class DetailView extends erste.View {
     constructor(show) {
         super();
         this.vm = new erste.ViewManager();
-        this.className = 'detail-view';
+        this.className = 'place-view';
         this.show = show;
     }
 
@@ -16,13 +13,9 @@ class DetailView extends erste.View {
     }
 
     onTap(e) {
-        //var signUpView = new SignUp();
-        //signUpView.vm = this.vm;
-        console.log("Merhaba");
-        var placeView = new PlaceView();
-        placeView.vm = this.vm;
-        this.vm.setCurrentView(placeView);
-        console.log("Merhaba");
+        var signUpView = new SignUp();
+        signUpView.vm = this.vm;
+        this.vm.setCurrentView(signUpView);
     };
 
 
@@ -57,4 +50,4 @@ class DetailView extends erste.View {
     };
 }
 
-module.exports = DetailView;
+module.exports = PlaceView;
