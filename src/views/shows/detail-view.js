@@ -1,6 +1,5 @@
 var __ = erste.locale.__;
-//var SignUp = require('../sidebar/signup');
-//var AboutView = require('../sidebar/about-view');
+
 var PlaceView = require('../place/place-view');
 
 class DetailView extends erste.View {
@@ -16,15 +15,19 @@ class DetailView extends erste.View {
     }
 
     onTap(e) {
-        //var signUpView = new SignUp();
-        //signUpView.vm = this.vm;
-        console.log("Merhaba");
-        var placeView = new PlaceView();
+        var show = this.show;
+        var placeView = new PlaceView(show);
         placeView.vm = this.vm;
-        this.vm.setCurrentView(placeView);
-        console.log("Merhaba");
+        this.vm.pull(placeView, true);
     };
 
+    get events() {
+        return {
+            'tap': {
+                '.buttonPlace': this.onTap
+            }
+        }
+    }
 
     template_content() {
         var imgFile = this.show['images']['fanart'].split('/').slice(-1);
@@ -33,7 +36,7 @@ class DetailView extends erste.View {
 
         return `
     <div class="info">
-        <p>${show.title}</p>
+        <p><button class="buttonArtist" type="button">${show.title}</button></p>
         <hr>
         <img class="image1" src="static/img/poster/${imgFile}"/>
         <hr>
@@ -47,14 +50,6 @@ class DetailView extends erste.View {
     <button class="button1" type="button" onclick="location.href='http://www.biletix.com/';">Get Ticket</button>
 `;
     }
-
-    get events() {
-        return {
-            'tap': {
-                '.detail-view': this.onTap
-            }
-        };
-    };
 }
 
 module.exports = DetailView;

@@ -8,15 +8,15 @@
     },
     "imdb_id": "tt0944947",
     "last_updated": 1417660036200,
-    "num_seasons": 4,
+    "phone": "(0212) 231 30 45",
     "slug": "shakira",
     "title": "Shakira",
     "tvdb_id": "121361",
     "date": "09.04.2017 21:00",
     "day":"Sunday",
-    "place":"Kucukciftlik Park",
+    "place":"Küçükçiftlik Park",
     "description":"Muhteşem performanslarıyla herkesi kendine hayran bırakan Shakira Küçükçiftlik Parkta karşınızda",
-    "year": "2011"
+    "address": "Kadırgalar Yokuşu No:4, 34367 İstanbul"
   },
   {
     "_id": "tt0903747",
@@ -27,7 +27,7 @@
     },
     "imdb_id": "tt0903747",
     "last_updated": 1417658659632,
-    "num_seasons": 5,
+    "phone": "(0212) 334 01 00",
     "slug": "ariana-grande",
     "title": "Ariana Grande",
     "tvdb_id": "81189",
@@ -35,7 +35,7 @@
     "day":"Saturday",
     "place":"Babylon",
     "description":"Şirin tatlı kızımız Ariana Grande Babylon'da sizleri bekliyor",
-    "year": "2008"
+    "address": "Merkez Mah. Silahşör Cad. Birahane Sok. No: 1, 34384 Şişli/İstanbul"
   },
   {
     "_id": "tt0898266",
@@ -46,7 +46,7 @@
     },
     "imdb_id": "tt0898266",
     "last_updated": 1417658646998,
-    "num_seasons": 8,
+    "phone": "(0212) 413 06 00",
     "slug": "katy-perry",
     "title": "Katy Perry",
     "tvdb_id": "80379",
@@ -54,7 +54,7 @@
     "day":"Sunday",
     "place":"Trendy Lounge & Bar",
     "description":"Ünlü İngiliz sanatçı güzel şarkılarıyla karşınızda Trendy Lounge & Bar'da",
-    "year": "2007"
+    "address": "Sahilyolu Cad., Ataköy, 34158 Istanbul"
   },
   {
     "_id": "tt1520211",
@@ -65,7 +65,7 @@
     },
     "imdb_id": "tt1520211",
     "last_updated": 1417584709791,
-    "num_seasons": 5,
+    "phone": "(0216) 688 15 30",
     "slug": "madonna",
     "title": "Madonna",
     "tvdb_id": "153021",
@@ -73,7 +73,7 @@
     "day":"Saturday",
     "place":"IF Performance Hall",
     "description":"Yine bir efsane karşınıza IF Performance Hall'da, işte o Madonna",
-    "year": "2010"
+    "address": "Barbaros Mahallesi, Ataşehir Blv. No:216, 34746 Ataşehir/İstanbul"
   },
   {
     "_id": "tt0773262",
@@ -84,7 +84,7 @@
     },
     "imdb_id": "tt0773262",
     "last_updated": 1417659297267,
-    "num_seasons": 8,
+    "phone": "(0212) 336 66 00",
     "slug": "britney-spears",
     "title": "Britney Spears",
     "tvdb_id": "79349",
@@ -92,7 +92,7 @@
     "day":"Sunday",
     "place":"Eataly-Bar Terrazzo",
     "description":"Şarkılarıyla skandallarının önüne geçen güzelimiz Britney Spears Eataly-Bar Terrazzo'da",
-    "year": "2006"
+    "address": "Levazım Mah, Koru Sokağı Zorlu Center No:1, 34340 Beşiktaş/İstanbul"
   },
   {
     "_id": "tt0460649",
@@ -103,7 +103,7 @@
     },
     "imdb_id": "tt0460649",
     "last_updated": 1417660822029,
-    "num_seasons": 9,
+    "phone": "(0216) 405 24 04",
     "slug": "rihanna",
     "title": "Rihanna",
     "tvdb_id": "75760",
@@ -111,7 +111,7 @@
     "day":"Saturday",
     "place":"Living Room",
     "description":"İstanbulu çok sevdiğini açıklayan Rihanna Living Room'u yıkmaya hazırlanıyor",
-    "year": "2005"
+    "address": "Caferağa Mahallesi, Arayıcıbaşı Sk. No:9, 34710 Kadıköy/İstanbul"
   },
   {
     "_id": "tt1475582",
@@ -122,15 +122,15 @@
     },
     "imdb_id": "tt1475582",
     "last_updated": 1417584483586,
-    "num_seasons": 3,
+    "phone": "(0216) 325 03 72",
     "slug": "miley-cyrus",
     "title": "Miley Cyrus",
     "tvdb_id": "176941",
     "date": "30.04.2017 21:00",
     "day":"Sunday",
-    "place":"Akasya Kultur Sanat",
+    "place":"Akasya Kültür Sanat",
     "description":"Değişik yaşam tarzıyla dikkatleri üzerine çeken Miley Cyrus Akasya Kültür Sanat'ta",
-    "year": "2010"
+    "address": "Acıbadem, Acıbadem Cd., 34660 Üsküdar/İstanbul"
   },
   {
     "_id": "tt1119644",
@@ -141,7 +141,7 @@
     },
     "imdb_id": "tt1119644",
     "last_updated": 1417659981964,
-    "num_seasons": 5,
+    "phone": "(0212) 249 07 49",
     "slug": "beyonce",
     "title": "Beyonce",
     "tvdb_id": "82066",
@@ -149,7 +149,7 @@
     "day":"Saturday",
     "place":"Jolly Joker",
     "description":"İstanbulu büyelemeye hazırlanan Beyonce Jolly Joker'de karşınızda",
-    "year": "2008"
+    "address": "Hüseyinağa Mahallesi, Balo Sk. No:22, 34435 Beyoğlu/İstanbul"
   },
   {
     "_id": "tt2193021",
@@ -160,15 +160,15 @@
     },
     "imdb_id": "tt2193021",
     "last_updated": 1417658636924,
-    "num_seasons": 3,
+    "phone": "(0212) 231 30 45",
     "slug": "jennifer-lopez",
     "title": "Jennifer Lopez",
     "tvdb_id": "257655",
     "date": "07.05.2017 21:00",
     "day":"Sunday",
-    "place":"Kucukciftlik Park",
+    "place":"Küçükçiftlik Park",
     "description":"Muhteşem sesi, güzelliği ve danslarıyla yılların bir numarası karşınızda Küçükçiftlik Park'ta",
-    "year": "2012"
+    "address": "Kadırgalar Yokuşu No:4, 34367 İstanbul"
   },
   {
     "_id": "tt1796960",
@@ -179,7 +179,7 @@
     },
     "imdb_id": "tt1796960",
     "last_updated": 1417660728936,
-    "num_seasons": 4,
+    "phone": "(0212) 334 01 00",
     "slug": "mariah-carey",
     "title": "Mariah Carey",
     "tvdb_id": "247897",
@@ -187,7 +187,7 @@
     "day":"Saturday",
     "place":"Babylon",
     "description":"Erkeklerin rüyalarını süsleyen eşsiz güzel Mariah Carey Babylon'da",
-    "year": "2011"
+    "address": "Merkez Mah. Silahşör Cad. Birahane Sok. No: 1, 34384 Şişli/İstanbul"
   },
   {
     "_id": "tt0411008",
@@ -198,7 +198,7 @@
     },
     "imdb_id": "tt0411008",
     "last_updated": 1417661754589,
-    "num_seasons": 5,
+    "phone": "(0212) 413 06 00",
     "slug": "demi-lovato",
     "title": "Demi Lovato",
     "tvdb_id": "73739",
@@ -206,7 +206,7 @@
     "day":"Sunday",
     "place":"Trendy Lounge & Bar",
     "description":"Güzelliği ve sesiyle bilinen Demi Lovato karşınızda Trendy Lounge & Bar'da",
-    "year": "2004"
+    "address": "Sahilyolu Cad., Ataköy, 34158 Istanbul"
   },
   {
     "_id": "tt0412142",
@@ -217,7 +217,7 @@
     },
     "imdb_id": "tt0412142",
     "last_updated": 1417660789664,
-    "num_seasons": 7,
+    "phone": "(0216) 688 15 30",
     "slug": "taylor-swift",
     "title": "Taylor Swift",
     "tvdb_id": "73255",
@@ -225,7 +225,7 @@
     "day":"Saturday",
     "place":"IF Performance Hall",
     "description":"Küçük güzel kızımız Taylor Swift IF Performance Hall'da hayranlarıyla buluşacak",
-    "year": "2004"
+    "address": "Barbaros Mahallesi, Ataşehir Blv. No:216, 34746 Ataşehir/İstanbul"
   },
   {
     "_id": "tt1442437",
@@ -236,7 +236,7 @@
     },
     "imdb_id": "tt1442437",
     "last_updated": 1417662471733,
-    "num_seasons": 6,
+    "phone": "(0212) 336 66 00",
     "slug": "eminem",
     "title": "Eminem",
     "tvdb_id": "95011",
@@ -244,7 +244,7 @@
     "day":"Sunday",
     "place":"Eataly-Bar Terrazzo",
     "description":"Rap'in kralı Eminem sonunda İstanbul'da. Eataly-Bar Terrazzo Rap'e doyacak",
-    "year": "2009"
+    "address": "Levazım Mah, Koru Sokağı Zorlu Center No:1, 34340 Beşiktaş/İstanbul"
   },
   {
     "_id": "tt0460681",
@@ -255,7 +255,7 @@
     },
     "imdb_id": "tt0460681",
     "last_updated": 1417584516232,
-    "num_seasons": 10,
+    "phone": "(0212) 334 01 00",
     "slug": "adele",
     "title": "Adele",
     "tvdb_id": "78901",
@@ -263,7 +263,7 @@
     "day":"Saturday",
     "place":"Babylon",
     "description":"Harika şarkıları ve büyüleyici sesiyle Adele İstanbul'da Babylon'da",
-    "year": "2005"
+    "address": "Merkez Mah. Silahşör Cad. Birahane Sok. No: 1, 34384 Şişli/İstanbul"
   },
   {
     "_id": "tt1632701",
@@ -274,7 +274,7 @@
     },
     "imdb_id": "tt1632701",
     "last_updated": 1417584514904,
-    "num_seasons": 4,
+    "phone": "(0212) 413 06 00",
     "slug": "justin-bieber",
     "title": "Justin Bieber",
     "tvdb_id": "247808",
@@ -282,7 +282,7 @@
     "day":"Sunday",
     "place":"Trendy Lounge & Bar",
     "description":"Genç kızların rüyası Justin Bieber Trendy Lounge & Bar'da",
-    "year": "2011"
+    "address": "Sahilyolu Cad., Ataköy, 34158 Istanbul"
   },
   {
     "_id": "tt0844441",
@@ -293,7 +293,7 @@
     },
     "imdb_id": "tt0844441",
     "last_updated": 1417584538926,
-    "num_seasons": 7,
+    "phone": "(0216) 688 15 30",
     "slug": "nicki-minaj",
     "title": "Nicki Minaj",
     "tvdb_id": "82283",
@@ -301,7 +301,7 @@
     "day":"Saturday",
     "place":"IF Performance Hall",
     "description":"Nicki Minaj. Nicki Minaj. Nicki Minaj. Mükemmellik karşınızda. IF performance Hall yıkılacak",
-    "year": "2008"
+    "address": "Barbaros Mahallesi, Ataşehir Blv. No:216, 34746 Ataşehir/İstanbul"
   },
   {
     "_id": "tt0436992",
@@ -312,7 +312,7 @@
     },
     "imdb_id": "tt0436992",
     "last_updated": 1417659365380,
-    "num_seasons": 10,
+    "phone": "(0212) 336 66 00",
     "slug": "lady-gaga",
     "title": "Lady Gaga",
     "tvdb_id": "78804",
@@ -320,7 +320,7 @@
     "day":"Sunday",
     "place":"Eataly-Bar Terrazzo",
     "description":"İlginç giyim tarzı, dansları ve şarkılarıyla Lady Gaga Eataly-Bar Terrazzo'da",
-    "year": "2005"
+    "address": "Levazım Mah, Koru Sokağı Zorlu Center No:1, 34340 Beşiktaş/İstanbul"
   },
   {
     "_id": "tt1439629",
@@ -331,7 +331,7 @@
     },
     "imdb_id": "tt1439629",
     "last_updated": 1417658676451,
-    "num_seasons": 5,
+    "phone": "(0216) 405 24 04",
     "slug": "kanye-west",
     "title": "Kanye West",
     "tvdb_id": "94571",
@@ -339,7 +339,7 @@
     "day":"Saturday",
     "place":"Living Room",
     "description":"Rap denince akla gelen ilk isimlerden biri olan Kanye West Living Room'da",
-    "year": "2009"
+    "address": "Caferağa Mahallesi, Arayıcıbaşı Sk. No:9, 34710 Kadıköy/İstanbul"
   },
   {
     "_id": "tt0096697",
@@ -350,15 +350,15 @@
     },
     "imdb_id": "tt0096697",
     "last_updated": 1417584488011,
-    "num_seasons": 10,
+    "phone": "(0216) 325 03 72",
     "slug": "chris-brown",
     "title": "Chris Brown",
     "tvdb_id": "71663",
     "date": "02.04.2017 21:00",
     "day":"Sunday",
-    "place":"Akasya Kultur Sanat",
+    "place":"Akasya Kültür Sanat",
     "description":"Harika danslarıyla şarkılarını bütünleştiren Chris Brown Akasya Kültür Sanatı yerle bir edecek",
-    "year": "1989"
+    "address": "Acıbadem, Acıbadem Cd., 34660 Üsküdar/İstanbul"
   },
   {
     "_id": "tt1856010",
@@ -369,7 +369,7 @@
     },
     "imdb_id": "tt1856010",
     "last_updated": 1417660800182,
-    "num_seasons": 2,
+    "phone": "(0212) 249 07 49",
     "slug": "selena-gomez",
     "title": "Selena Gomez",
     "tvdb_id": "262980",
@@ -377,6 +377,6 @@
     "day":"Saturday",
     "place":"Jolly Joker",
     "description":"Muhteşem sesi ve güzelliğiyle dillere destan Selena Gomez Jolly Joker'de",
-    "year": "2013"
+    "address": "Hüseyinağa Mahallesi, Balo Sk. No:22, 34435 Beyoğlu/İstanbul"
   }
 ]

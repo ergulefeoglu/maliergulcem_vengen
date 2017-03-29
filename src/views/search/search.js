@@ -1,9 +1,4 @@
 var __ = erste.locale.__;
-var Sidebar = require('../sidebar/sidebar');
-var MainView = require('../main-view');
-var SignIn = require('../sidebar/signin');
-var SignUp = require('../sidebar/signup');
-var AboutView = require('../sidebar/aboutview');
 
 class Search extends erste.View {
     constructor() {
@@ -11,36 +6,10 @@ class Search extends erste.View {
 
         this.className = 'search';
 
-        this.sidebar = new Sidebar();
-        this.signInView = new SignIn();
-        this.signUpView = new SignUp();
-        this.aboutView = new AboutView();
-
         this.navBar = new erste.NavBar({
             title: __('<img src="static/foto/logo3.png"/>'),
             hasMenuButton: true,
             hasBackButton: true
-        });
-
-        this.sidebar.render(document.body);
-        this.sidebar.on('switchView', e => {
-            var view;
-
-            switch (e.view) {
-                case 'Sign up':
-                    view = signUpView;
-                    break;
-                case 'Sign in':
-                    view = signInView;
-                    break;
-                case 'About':
-                    view = aboutView;
-                    break;
-                default:
-                    view = mainView;
-            }
-
-            this.vm.setCurrentView(view, true);
         });
     }
 
