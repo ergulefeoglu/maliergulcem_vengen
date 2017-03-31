@@ -1,40 +1,52 @@
 var __ = erste.locale.__;
+var MapView = require('../map/map-view');
 
 class PlaceView extends erste.View {
     constructor(show) {
         super();
         this.vm = new erste.ViewManager();
         this.className = 'place-view';
-        this.show = show;
+        this.show = show;        
 
         this.navBar = new erste.NavBar({
             title: __('<img src="static/foto/logo3.png"/>'),
             hasMenuButton: true,
             hasBackButton: true
         });
-
         this.hasSidebar = true;
-    }
-
-    get supportsBackGesture() {
-        return true;
+        this.supportsBackGesture = true; 
     }
 
     onActivation() {
-        if (cfg.PLATFORM == 'device')
-            StatusBar.styleLightContent();
+        this.navBar.vm = this.vm;
     }
 
-    onAfterRender() {
-        this.vm = new erste.ViewManager(this.el);
-        this.navBar.vm = this.vm;
+    onMapTap(e) {
+        var mapView = new MapView();
+        mapView.vm = this.vm;
+        this.vm.pull(mapView, true);
     };
+
+    onDetailTap(e) {
+        var mapView = new MapView();
+        mapView.vm = this.vm;
+        this.vm.pull(mapView, true);
+    }
+
+    get events() {
+        return {
+            'tap': {
+                '.button1': this.onDetailTap,
+                '.button2': this.onMapTap
+            }
+        }
+    }
 
     template_content() {
 
         var show = this.show;
 
-        return `${this.navBar}       
+        return `${this.navBar}      
 <h3>${show.place}</h3>
 <hr>
 <br>
